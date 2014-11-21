@@ -1,22 +1,20 @@
-horizontal-calendar-widget
-==========================
+## Horizontal calendar widget
 
 A simple [Übersicht](http://tracesof.net/uebersicht/) Widget. This will enable a sleek Dateline-like horizontal calendar on your desktop to make it more useful.
 
-## Screenshot
+![Horizontal calendar widget for übersicht](./screenshot.png)
 
-![Analog clock widget for übersicht](./screenshot.png)
+This version add __localization__ (French/English), easy positioning, and __custom appearence__ capabilities.<br>
+__Fork from :__ [https://github.com/ashikahmad/horizontal-calendar-widget](https://github.com/ashikahmad/horizontal-calendar-widget)
 
-## Download
+![Screenshot calendar in English](./doc/screenshot-en.png)
+![Screenshot calendar in Franch](./doc/screenshot-fr.png)
 
-To download just the zipped widget folder, check out [the latest release](https://github.com/ashikahmad/horizontal-calendar-widget/releases/latest).
-
-## Contributing
-
-Have an idea for improving this widget? [Open an issue](https://github.com/ashikahmad/horizontal-calendar-widget/issues/new) or fork this repository and send a pull request :grinning:.
-
-If you want to contribute, having a go at one of these items above might be a good place to start! :+1:
-
-## License
-
-[CC0 1.0 Universal](./LICENSE)
+## Position
+- Top Left:  ```TL|left_margin|top_margin```
+- Top Right: ```TR|right_margin|top_margin```
+- Bottom Left: ```BL|left_margin|bottom_margin```
+- Bottom Right: ```BR|right_margin|bottom_margin```
+- Center on screen: ```C|0|0```
+- Center vertically: ```C|left_margin|0```
+- Center horizontally: ```C|0|top_margin```
